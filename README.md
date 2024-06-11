@@ -16,16 +16,16 @@ A simple file system implemented using FUSE.
 
 ## Setup
 
-### Install DockerDeskTop
-### Clone this Repostiory
-### Open Terminal In this responsitory
-### Create docker Image using Dockerfile ( docker build -t simple_fs . )
-### Start Container in interactive mode (sudo docker run --privileged --cap-add=SYS_ADMIN --device /dev/fuse -it simple_fs /bin/bash)
-### manually start the file system (/src/simple_fs /mountpoint)
-### Test the file System in another terminal
-### cd /mountpoint
-### touch myfile
-### echo "Hello, World!" > myfile
-### cat myfile
-### fusermount3 -u /mountpoint
+### 1. Install DockerDeskTop
+### 2. Clone this Repostiory
+### 3. Open Terminal In this responsitory
+### 4. Create docker Image using Dockerfile ( docker build -t simple_fs . )
+### 5. Start Container in interactive mode (sudo docker run --privileged --cap-add=SYS_ADMIN --device /dev/fuse -it simple_fs /bin/bash)
+### 6. manually start the file system (/src/simple_fs /mountpoint)
+### 7. Test the file System in another terminal
+### 8. cd /mountpoint
+### 9. touch myfile
+### 10. echo "Hello, World!" > myfile
+### 11. cat myfile
+### 12. fusermount3 -u /mountpoint
 
